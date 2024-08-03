@@ -1,0 +1,91 @@
+#stick{
+    height: 90px;
+    width: 70px;
+    margin-left: 395px;
+    margin-top: 385px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+#pebble{
+
+    height: 64px;
+    width: 89px;
+    margin-left: 470px;
+    margin-top: 468px;
+    position: absolute;
+     z-index: +1;
+}
+#bush{
+    height: 150px;
+    width: 210px;
+    margin-top: 418px;
+    position: absolute;
+}
+
+#tree{
+ 	width: 310px;
+    height: 335px;
+    margin-top: 97px;
+    position: absolute;
+    margin-left: 64px;
+
+}
+
+#ground{
+	width: 200px;
+    margin-left: 540px;
+    margin-top: 370px;
+    position: absolute;
+}
+
+
+#info{
+	position:absolute; 
+	color:yellow;
+	margin-left: 30px;
+	margin-top: 30px;
+	z-index: +1;
+}
+
+#ResourcesCount{
+	background-color: yellow;
+}
+
+.inline {
+  display: inline;
+}
+
+.InterfaceNames{
+	color: rgb(0, 92, 230); 
+	margin-left: 845px; 
+	position: absolute;
+	margin-top: 8px
+}
+
+.ShopInterfaceNames{
+	color: rgb(0, 0, 153);
+    margin-left: 128px;
+    position: absolute;
+    margin-top: -110px;
+    font-size: 40px;
+}
+
+.InterfaceDescriptions{
+	color: rgb(26, 117, 255);
+    margin-left: 848px;
+    position: absolute;
+    margin-top: 55px;
+}
+
+.ShopInterfaceDescriptions{
+	color: rgb(26, 117, 255);
+    margin-left: 128px;
+    position: absolute;
+    margin-top: -65px;
+}
+
+.shop{
+	width: auto;
+	height:auto;
+}

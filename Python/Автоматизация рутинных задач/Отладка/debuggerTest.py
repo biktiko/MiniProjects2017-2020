@@ -1,0 +1,7 @@
+print('First word')
+first = input()
+print('Second word')
+second = input()
+print('Third word')
+third = input()
+print("Sum is " + first + second + third)

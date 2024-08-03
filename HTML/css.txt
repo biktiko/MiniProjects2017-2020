@@ -1,0 +1,66 @@
+
+Бесплатные шрифты - http://www.moorstation.org/typoasis/designers/steffmann/.
+@font-face{}
+
+1)Выбрать по атрибуту
+p[name="text"]{
+    #css
+}
+>Используя комбинации символов ^=, $= и *=, мы можем находить элементы, начинающиеся или
+заканчивающиеся указанными значениями или включающие их в произвольном месте. Например, p[name^="text"] находит все элементы <p>,
+у которых есть атрибут с названием name и значением, начинающимся на "text".
+
+2) Все p кроме класса .mytext4
+p:not(.mytext4){       
+    #css
+}
+
+3) mytext2, если он находится в div 
+div > .mytext2{
+    #css
+} 
+
+4) mytext2 и следующий p елемент * // При + вместе ~, будет выделен только следующий 
+p.mytext2 ~ p{
+    #css
+}
+
+5) Все чётные элементы p
+p:nth-child(even){
+    #css
+}
+
+6) Первый элемент p 
+P:first-child{
+    #css
+}
+
+7)очистка плавающий элементов
+clear: both 
+
+8) дочерные блоки выстраиваются в ряд погоризонтали
+#parentbox{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+
+9) 7 > Изменение потока документа на противоположный
+-webkit-box-direction: reverse;
+
+10) 7, 8 > произвольный порядок
+#box-1{
+    -webkit-box-ordinal-group: 2
+}
+#box-2{
+    -webkit-box-ordinal-group: 4;
+}
+#box-3{
+    -webkit-box-ordinal-group: 3;
+}
+#box-4{
+    -webkit-box-ordinal-group: 1;
+}
+
+11) -webkit-box-align: center 
+12) -webkit-box-flex: 1
+

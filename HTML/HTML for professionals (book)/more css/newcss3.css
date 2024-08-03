@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+}
+
+#mainbox {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 20px solid #999999;
+    background: #DDDDDD;
+
+    /* -moz-border-radius: 20px 10px 30px 50px;
+    -webkit-border-radius: 20px 10px 30px 50px;
+    border-radius: 20px 10px 30px 50px; */
+
+    -moz-border-radius: 25px / 15px;
+    -webkit-border-radius: 25px / 15px;
+    border-radius: 25px / 15px;
+
+    -moz-box-shadow: rgb(150,150,150) 5px 5px;
+    -webkit-box-shadow: rgb(150,150,150) 5px 5px;
+    box-shadow: rgb(150,150,150) 5px 5px ;
+
+    background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+    background: -moz-linear-gradient(top, #FFFFFF, #006699);
+    
+    /* background: linear-gradient(top, #FFFFFF 50%, #006699 90%); */
+    /* background: -webkit-radial-gradient(center, circle, #FFFFFF 0%, #006699 200%); */
+
+    outline: 2px dashed #000099;
+    outline-offset: 15px;
+
+    /* Картинка на рамке */
+    -moz-border-image: url("border.png") 29  repeat;
+    -webkit-border-image: url("border.png") 29  repeat;    
+    border-image: url("border.png") 29  repeat ;
+
+                    /*       Перемещает   /   Поварачивает /  Измененяет размер  / Влияет на симметрию элемента */
+    /* -moz-transform: translate(-40px, 200px) rotate(30deg)   scale(1.2, 1.3)    skew(20deg);                   
+    -webkit-transform: translate(-40px, 200px) rotate(30deg)   scale(1.2, 1.3)    skew(20deg);      
+    transform: translate(-40px, 200px) rotate(30deg)   scale(1.2, 1.3)    skew(20deg); */
+
+    /* -moz-transform: translateY(100px) rotate(45deg) scaleX(0.3);
+    -webkit-transform: translateY(100px) rotate(45deg) scaleX(0.3);
+    transform: translateY(100px) rotate(45deg) scaleX(0.3); */
+
+    
+    /* ease, linear, ease-in, ease-out и easein-out */
+    -moz-transition: -moz-transform 1s linear, 0.5s;
+    -webkit-transition: -webkit-transform 1s linear, 0.5s;
+    transition: -webkit-transform 1s linear, 0.5s;
+}
+#mainbox:hover{
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+#title {
+    font: bold 36px MyNewFont, verdana, sans-serif;
+    text-shadow: rgba(0,0,0,0.5) 3px 3px 5px;
+}
+
+@font-face {                    /* создание нового шрифта */
+    font-family: 'MyNewFont';
+    src: url('ThorneShaded.ttf');
+}

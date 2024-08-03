@@ -1,0 +1,2 @@
+example ADJECTIVE 1, and example ADJECTIVE 2, ADJECTIVE 3. 
+And ADJECTIVE NOUN love him. VERB, ADVERB

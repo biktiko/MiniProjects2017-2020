@@ -1,0 +1,6 @@
+>Project name: Chess WebSite 
+>Description: Model of an online chess store
+>Data: May 2017
+>Version: V1.0.0
+>Project meaning: learn basic html, css
+>Additionally: done on courses "Web-programming 1" in TUMO

@@ -1,0 +1,8 @@
+>Project name: Microworld
+>Description: a small "world" with its creatures (green-grass, yellow-herbivores, red-predator)
+>Release data: June 2018
+>Version: 1.0.0
+>Project meaning: learn basic object-oriented programming, practice js
+>Additionally: done on courses "programming 2" in TUMO
+>Site (v2.0.0): http://microworld.herokuapp.com/
+>Github:  

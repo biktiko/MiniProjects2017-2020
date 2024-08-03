@@ -1,0 +1,9 @@
+>Project name: Microworld
+>Description: a small "world" with its creatures, for example green-grass, yellow-herbivores, and blue is the player himself
+>Release data: October 2018
+>Version: 3.0
+>Project meaning: learn better node
+>Site (v2.0): http://microworld.herokuapp.com/
+>Additionaly 1: "dont work :D"
+>Additionally 2: try done on courses "programming 3" in TUMO 
+>Github:  

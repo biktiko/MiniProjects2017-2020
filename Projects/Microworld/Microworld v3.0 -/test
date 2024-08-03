@@ -1,0 +1,54 @@
+
+
+alert("Press w, a, s and d for move. Eat all human. Open the console, for see you energy.");
+console.log("100 energy");
+
+
+    document.onkeypress = function (event) {
+    
+    k = event.key;
+     if (k == "w" || k == "s" || k == "a" || k == "d") {
+        player.move();
+    }
+    if(k<5 && player.energy>10)
+        {
+            if(k==1)
+                {
+                
+                    for(var i = 1; i < 11; i++){
+                        let x = getRandInt(10, l - 1)
+                        let y = getRandInt(10, l - 1)
+                        if(matrix[y][x] == 0)
+                        {
+                            var gr = new Grass(x, y, 1);
+                            grassArr.push(gr);
+                            matrix[y][x] = 1;
+                        }
+                    }
+                      player.energy-=10;
+                      console.log(player.energy+" energy");
+                }   
+        }
+    
+}
+
+
+
+    matrix[UY][UX] = 5;
+
+
+
+
+  
+
+  
+     
+    var UY = getRandInt(10, l - 1);
+var UX = getRandInt(10, l - 1);
+var player = new Player(getRandInt(10, l-1), getRandInt(10, l-1), 5);
+
+var weather = 0;
+var WeatherR = 0;
+var k = 1;
+var mUY;
+var mUX;

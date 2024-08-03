@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <title>Формы 1</title>
+    </head>
+
+    <body>
+        <section id="form">
+            <form name="myform" id="myform" method="get" style="padding: 30px;" >
+
+                <datalist id="mydata">
+                    <option value="123123123" label="Phone 1">
+                    <option value="456456456" label="Phone 2">
+                </datalist>    
+                       
+                text:<input type="text" name="name" id="name"  autofocus>
+                <!-- autofocus - направляет фокус на текущий элемент  -->
+                <br><br>
+
+                search:<input type="search" placeholder="Введите критерий поиска"> 
+                <br><br>
+
+                email: <input type="email" required multiple> 
+                <!-- required - Обьязательное поле
+                multiple - можно несколько значений   -->
+                <br><br>
+
+                url: <input type="url"> 
+                <br><br>
+
+                tel: <input type="tel" name="myphone" id="myphone" list="mydata"> 
+                <br><br>
+
+                number: <input type="number" min=-20 max=100 step=5>
+                <br><br>
+
+                range: <input type="range" id="range" min=0 max=10 step=4>
+                <br> <br>
+
+                date: <input type="date" id="date" id="date">
+                <br> <br>
+
+                week: <input type="week" id="week" id="week">
+                <br> <br>
+
+                month: <input type="month" id="month">
+                <br> <br>
+
+                time: <input type="time" id="time">
+                <br> <br>
+
+                datetime:<input type="datetime"  id="datetime"> ( probably dont work ¯\_(ツ)_/¯ )
+                <br> <br>
+
+                datetime-local: <input type="datetime-local"id="localdatetime">
+                <br> <br>  
+
+                color: <input type="color" id="color" >
+                <br> <br>
+
+                <input pattern="[0-9]{5}" name="pcode" id="pcode" title="insert the 5 numbers of your postal code">
+                <br> <br>
+
+                <input type="submit" value="Send">
+                <input type="button" value="Info" id="info">
+            </form>
+            
+            <hr>
+            <div style="padding:25px"> 
+                <!-- <input type="text" form="myform"> -->
+                
+                <progress> </progress> ( need settings ) 
+                <br>
+                >иллюстрация прогресса 
+                <br>
+                >Атрибуты - value, max
+                <br><br>
+
+                <meter> </meter>  ( need settings ) 
+                <br>
+                >Предназначен для отображения известного диапазона 
+                <br>
+                >Атриюуты - min, max, value, low, high, optimum
+                <br><br>
+
+                <output> *значения* </output>  ( need settings ) 
+                <br>
+                >Отображения результатов обработки значений 
+                <br>
+                >for - для связи с исходным элементом
+                <br><br>
+            </div>
+        </section>
+
+        <script>
+            // )
+
+            document.getElementById("info").addEventListener("click", info);
+            function info(){
+                console.log("1)Range >")
+                console.log(document.getElementById("range").value)
+                console.log("2)Date >")
+                console.log(document.getElementById("date").value)    
+                console.log("3)Week>")
+                console.log(document.getElementById("week").value)
+                console.log("4)Month>")
+                console.log(document.getElementById("month").value)
+                console.log("5)Time>")
+                console.log(document.getElementById("time").value)
+                console.log("6)Date time>")
+                console.log(document.getElementById("datetime").value)
+                console.log("7)Local datetime>")
+                console.log(document.getElementById("localdatetime").value)
+                console.log("8)Color>")
+                console.log(document.getElementById("color").value)
+            }
+        </script>
+    </body>
+</html>

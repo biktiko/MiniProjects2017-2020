@@ -1,0 +1,8 @@
+>Project name: Maze quest
+>Description: game (quest) made by Unity. 
+>Release data: October 2019
+>Version: 1.0
+>Project meaning: learn more about Unity and c #
+>Additionally: done on courses "game development 3" in TUMO
+>Additionally: only works on mac
+>Github:  

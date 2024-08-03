@@ -1,0 +1,6 @@
+>Project name: Chess WebSite 
+>Description: Model of an online chess store
+>Data: September 2018
+>Version: V2.0.0
+>Project meaning: learn to work with MySQL, practice php, html, css
+>Additionally: done on courses "Web-programming 2" in TUMO

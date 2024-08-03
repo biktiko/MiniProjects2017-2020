@@ -1,0 +1,11 @@
+
+.row
+{
+            margin-top: 10px;
+     }
+
+     .row > div{ 
+            padding: 12px 15px;
+            border: 1px solid #c9c1d5;
+            background-color: #e6e2eb;
+     }

@@ -1,0 +1,6 @@
+>Project name: Survive 
+>Description: A game where you need to collect resources, craft, develop and try not to die
+>Data: October 2019
+>Version: - (not finished) 
+>Project meaning: learn how to work with localStorage, images in javascript, practice javascript, html, css
+

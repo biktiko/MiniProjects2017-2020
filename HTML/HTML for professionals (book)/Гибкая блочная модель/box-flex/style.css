@@ -1,0 +1,28 @@
+#parentbox{
+    display: -webkit-box;
+    
+    -webkit-box-orient: horizontal;
+    width: 600px;
+    height: 200px;
+    -webkit-box-align: baseline;
+}
+#box-1{
+    width: 200px;
+    -webkit-box-flex: 1;
+    background-color: blue;
+}
+#box-2{
+    width:100px;
+    -webkit-box-flex: 1;
+    background-color: green;
+}
+#box-3{
+    width:100px;
+    -webkit-box-flex: 1;
+    background-color: purple;
+}
+#box-4{
+    width:100px;
+    -webkit-box-flex: 1;
+    background-color: yellow;
+}

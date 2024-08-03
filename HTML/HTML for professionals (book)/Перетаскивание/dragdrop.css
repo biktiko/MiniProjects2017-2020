@@ -1,0 +1,29 @@
+#dropbox {
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid #999999;
+}
+
+#dropbox2{
+    float: left;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #999999;
+    margin-top:10px;
+}
+
+ /* #picturesbox {
+    width: auto;
+    margin: 10px;
+    border: 1px solid #999999;
+} */
+
+img {
+    float: left;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+}
+

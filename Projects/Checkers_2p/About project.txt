@@ -1,0 +1,5 @@
+>Project name: Checkers
+>Description: Simple checkers by JavaScript (2 player)
+>Data: November 2019
+>Version: not finished 
+Project meaning: practice JavaScript

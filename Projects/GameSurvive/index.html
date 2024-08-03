@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Survive</title>
+		<meta charset="utf8">
+	</head>
+
+    <body style=" background-repeat: no-repeat; background-size: cover; ">
+
+    	<link rel="stylesheet" href="style.css">
+
+    	<div id="ResourcesCount">
+    		<h2  id="energy" style="color:green">Energy: 100</h2>
+    	</div>
+   
+    	<hr>
+
+	    <div id="forest1"  style="background-image: url('img/forest7.jpg'); background-repeat: no-repeat; width: 740px; height:570px; float:left;">
+	    	<h2 id="info"></h2>
+	    	<img onclick="StickCollect()" onmouseover="StickInfo()" id="stick" src="img/stick.png">
+	    	<img onclick="PebbleCollect()" onmouseover="PebbleInfo()" id="pebble" src="img/rock.png">
+	    	<img onclick="BushCollect()" onmouseover="BushInfo()" id="bush" src="img/bush.png">
+	    	<img onclick="CutTree()" onmouseover="TreeInfo()" id="tree" src="img/tree.png">
+	    	<img onclick="Ground()" onmouseover="GroundInfo()" id="ground" src="img/ground.png">
+	    </div>
+
+	    <div id="interface" >
+	    	<div style="background-color: rgb(230, 172, 0)">
+		    	<img style="width:70px; height:70px; margin-left:25px;  margin-top:5px; position: absolute;" src="img/wood.png">
+		    	<h1 id="wood" class="InterfaceNames" >Woods: 0</h1>
+		    	<br> <br> <br>  <br>
+		    	<hr>
+	    	</div>
+	
+			<div style="background-color: rgb(163, 163, 117)">
+		    	<img style="width:70px; height: 60px; margin-left:25px; margin-top:10px; position: absolute;" src="img/rock.png">
+		    	<h1 id="rock" class="InterfaceNames">Rocks: 0</h1>
+		    	<br> <br> <br>  <br>
+		    	<hr>
+		    </div>
+
+		    <div style="background-color:rgb(153, 255, 102)">
+		    	<img style="width:70px; height: 60px; margin-left:25px;  margin-top:10px; position: absolute;" src="img/rope.png">
+		    	<h1 id="rope"  class="InterfaceNames">Ropes: 0</h1>
+		    	<br> <br> <br>  <br>
+		    	<hr>
+		    </div>
+
+		    <div style="background-color:rgb(255, 102, 102)">
+		    	<img style="width:70px; height:70px; margin-left:25px; position: absolute;" src="img/berrie.png">
+		    	<h1 id="berrie"  class="InterfaceNames">Berries: 0</h1>
+		    	<h3 class="InterfaceDescriptions"> +4 energy</h3>
+		    	<br> <br> <br>  <br>
+		    	<input onclick="EatBerrie()" type="button" name="BerriesEating" value="Eat" style="margin-left:40px">
+		    	<hr>
+		    </div>
+
+		    <div style="background-color:rgb(255, 102, 102)">
+		    	<img style="width:57px; height:57px; margin-left:30px;  margin-top:9px; position: absolute;" src="img/apple.png">
+		    	<h1 id="apple"  class="InterfaceNames"> Apples: 0</h1>
+		    	<h3 class="InterfaceDescriptions"> +6 energy</h3>
+		    	<br> <br> <br>  <br>
+		    	<input onclick="EatApple()" type="button" name="AppleEating" value="Eat" style="margin-left:40px">
+		    	<hr>
+		    </div>
+
+	    </div>
+
+	    <div id=#shop class="shop">
+	    	
+	    	<div  id="Axe" style="background-color:rgb(204, 153, 0); margin-top: 70px; height: 120px; width: 375px "">
+	    		<img  id="AxeImage" style="width: 95px; margin-left: 14px; margin-top: 11px; " src="img/WoodenAxe.png">
+		    	<h1  id= "AxeName" class="ShopInterfaceNames">Wooden Axe</h1>
+			    <h3   id= "AxeDescription" class="ShopInterfaceDescriptions"> -2 Woods <br> -1 Ropes <br> -10 Energies </h3>
+			    <input onclick="BuyAxe()" type="button" name="BuyAxe" value="Craft" style="margin-left:150px ">
+			 </div>
+
+			<div  id="Pickaxe" style="background-color: rgb(204, 153, 0); width: 440px;  height: 115px; padding-top: 25px; margin-top: 30px">
+	    		<img id="PickaxeImage" style="width:95px; margin-left:10px; " src="img/WoodenPickaxe.png">
+		    	<h1  id="PickaxeName" class="ShopInterfaceNames">Wooden Pickaxe</h1>
+			    <h3 id="PickaxeDescription" class="ShopInterfaceDescriptions"> -3 Woods <br> -2 Ropes <br> -15 Energies </h3>
+			    <input onclick="BuyPickaxe()" type="button" name="BuyPickaxe" value="Craft" style="margin-left:150px ">
+			  </div>
+
+
+	    </div>
+
+	    <div id=#travelling>
+	    	<div >
+	    		<select name="cars" size="4" multiple>
+					  <option value="volvo">Volvo</option>
+					  <option value="saab">Saab</option>
+					  <option value="fiat">Fiat</option>
+					  <option value="audi">Audi</option>
+				</select>
+	    	</div>
+	    </div>
+	    
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+		   <script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="materials.js"></script>
+       </body> 
+</html>
+
